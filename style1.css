@@ -141,10 +141,10 @@ button:hover {
 @media  (max-width:504px){
     .container{
     
-      width: 100%;
+      width: 95%;
     }  
     .header{
-      width: 100%;
+      width: 95%;
     }
     .header div{
       font-size: 16px;
