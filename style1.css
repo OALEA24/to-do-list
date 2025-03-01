@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+    /* background-color: rgb(0, 0, 0); */
+    border-radius: 10px;
+    margin: 50px auto;
+    /* padding-bottom: 2px; */
+    /* border: solid 1px blue; */
+    position: relative;
+
+}
+
+.header {
+    z-index: 111;
+    text-align: center;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+    border: solid 3px rgb(76, 0, 255);
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.header div {
+    display: inline-block;
+    line-height: 50px;
+    color: rgb(29, 43, 131);
+    font-size: 30px;
+}
+
+.butn {
+    text-align: center;
+    height: 40px;
+    padding: 0px 4px 0px 4px;
+    /* width: 40px; */
+    /* font-size: 40px; */
+    border-radius: 5px;
+    border: solid red 1px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.647); */
+    /* position: relative;
+    right: 10px;
+    top: 5px;
+    bottom: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.task {
+
+    margin-bottom: 10px;
+    /* height: 70px; */
+    /* line-height: 70px; */
+    /* background-color: #e6d5d5; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+    text-align: center;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* border: solid 1px rgb(12, 5, 70); */
+    border-radius: 5px;
+    /* transition: all 0.4s ease-in-out; */
+}
+
+
+
+.section {
+    margin-top: 60px;
+}
+
+.mession {
+    height: 70px;
+    background: #ffcfcf;
+    width: 100%;
+    padding-left: 10px;
+    margin-right: 10px;
+    border-left: solid rgb(255, 0, 0) 7px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.btncontainer {
+    margin-left: -10px;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    /* width: 100%; */
+    /* background-color: red; */
+}
+
+.butn1 {
+    margin: 3px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    height: 25px;
+    /* width: 45px; */
+    border: solid 1px rgb(4, 0, 255);
+    /* font-size: px; */
+    border-radius: 5px;
+    /* border: none; */
+    color: rgb(0, 0, 0);
+    background-color: white;
+    /* box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.647); */
+    float: right;
+    margin-left: 10px;
+    /* transition: 0.2s; */
+
+}
+
+.mar {
+    background-color: #8eff8e;
+}
